@@ -1,0 +1,59 @@
+{
+  "mission": "audit-theklope",
+  "cible": "https://www.theklope.com",
+  "debut": "2026-10-25T06:14:04Z",
+  "standards": "agent-standards SOURCING LAB (traçabilité, sources datées, statuts documenté/déclaré/supposé)",
+  "etapes": [
+    {
+      "t": "2026-10-25T06:14:04Z",
+      "action": "Chargement homepage + skills seo-audit, ai-seo, cro",
+      "resultat": "HTTP 200, 72KB, SPA React/Vite hébergée Vercel, lang=fr, H1 unique présent"
+    },
+    {
+      "t": "2026-10-25T06:14:30Z",
+      "action": "robots.txt, sitemap.xml, llms.txt, redirections, headers",
+      "resultat": "robots OK (crawlers IA autorisés), sitemap 20+ URLs, llms.txt 200, 308 www/https OK, HSTS OK, serveur Vercel CDN"
+    },
+    {
+      "t": "2026-10-25T06:15:30Z",
+      "action": "Fetch pages clés + analyse SSR",
+      "resultat": "guides/faq/contact/a-propos : SSR très mince (124-240 car. visibles). boutique : 17.9k car OK. title page locale tronqué 'Castellane | '. 404 OK. cartouches-xros 308->cartouches OK."
+    },
+    {
+      "t": "2026-10-25T06:16:00Z",
+      "action": "Délégations parallèles ad-hoc : SEO technique/perf, CRO/UX, analyse concurrentielle",
+      "agent": "subagents génériques (aucun agent spécialisé SEO/CRO disponible dans summon)",
+      "statut": "en cours"
+    },
+    {
+      "t": "2026-10-25T06:16:00Z",
+      "action": "Audit GEO/visibilité IA mené par l'orchestrateur (skill ai-seo chargé)",
+      "statut": "en cours"
+    },
+    {
+      "t": "2026-10-25T07:20:00Z",
+      "action": "Retours 3 subagents (20261025_9 CRO, _10 SEO, _11 concurrentiel)",
+      "resultat": "Rapports recus. Arbitrage orchestrateur: JSON-LD homepage = 0 bloc en SSR statique (contradiction avec agent _11 resolue). Avasvape NXDOMAIN -> remplace par concurrents locaux. PSI quota 429 -> perf non mesuree."
+    },
+    {
+      "t": "2026-10-25T07:30:00Z",
+      "action": "Verifications finales orchestrateur (JSON-LD arbitrage, llms-full 1.06Mo, pricing.md 404, guides SSR mince)",
+      "resultat": "Confirme : 0 ld+json homepage SSR, llms-full.txt 200, guides SSR mince"
+    },
+    {
+      "t": "2026-10-25T07:35:00Z",
+      "action": "Redaction rapport reports/audit-theklope.md",
+      "resultat": "140 lignes, 27 mentions VERIFIE, 7 HYPOTHESE, 15 ameliorations priorisees. Auto-validation: fichier lisible, structure conforme."
+    }
+  ],
+  "notes": "Site e-commerce vape Marseille. Contrainte réglementaire forte (publicité vape interdite en France - loi MPT). Pas de modification du site ni déploiement sans validation humaine.",
+  "fin": "2026-10-25T07:35:00Z",
+  "couverture": {
+    "SEO technique": "etabli",
+    "visibilite IA": "etabli",
+    "CRO/UX": "partiel (checkout et mobile reel non testes)",
+    "performance": "inconnu (PSI quota)",
+    "concurrentiel": "partiel (lepetitvapoteur 403)",
+    "GSC": "inconnu (acces requis)"
+  }
+}

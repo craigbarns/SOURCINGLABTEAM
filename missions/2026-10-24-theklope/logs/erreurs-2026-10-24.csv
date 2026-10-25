@@ -1,0 +1,8 @@
+timestamp;agent;gravité;description;action;statut
+2026-10-24T22:49:00+02:00;sourcing-manager;Mineur;ImportYeti bloqué par Cloudflare (HTTP challenge) à l'accès direct;Utilisation des extraits indexés de DuckDuckGo pour les preuves douanières (URLs conservées);corrigé
+2026-10-24T22:50:00+02:00;sourcing-manager;Mineur;Sites introuvables pour Gift Bag Lady (giftbaglady.com), Triple J Bedding, Royal Bedding, Workwear International - pas de site officiel;Prospects écartés (critère site officiel obligatoire);corrigé
+2026-10-24T22:56:00+02:00;sourcing-manager;Mineur;centralmarble.com en page de maintenance;Conservation du prospect avec contact via formulaire du site + téléphone (713) 956-2001;ouvert
+2026-10-24T22:57:00+02:00;sourcing-manager;Majeur;Express Tile Of New York (Yonkers) : aucune preuve douanière appariée avec certitude (Express Tile Studio de Flushing = entité non confirmée identique);Besoin d'importation classé Opportunité supposée dans le rapport;ouvert
+2026-10-24T22:58:00+02:00;sourcing-manager;Mineur;Requêtes DDG sans résultats sur plusieurs formulations (rep fitness founder / thor kitchen CEO / versa group president);Requêtes reformulées;corrigé
+2026-10-24T22:59:00+02:00;sourcing-manager;Mineur;Pages LinkedIn entreprise non identifiées pour Gifts International Inc, THOR Kitchen, Central Marble, Express Tile, Versa/Original Brands (homonymes ou absence);Mention "non identifiée" + lien de recherche fourni dans le rapport;ouvert
+2026-10-24T23:00:00+02:00;sourcing-manager;Mineur;Richards Packaging écarté de la liste finale : siège déclaré Vancouver (Canada) malgré opérations US documentées;Remplacé pour respecter le critère "entreprises américaines";corrigé

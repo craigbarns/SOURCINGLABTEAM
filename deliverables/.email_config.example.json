@@ -1,0 +1,9 @@
+{
+  "smtp_host": "smtp.ionos.com",
+  "smtp_port": 587,
+  "sender_email": "VOTRE_EMAIL@votredomaine.com",
+  "sender_password": "VOTRE_MOT_DE_PASSE_IONOS",
+  "sender_name": "Sourcing Lab USA",
+  "signature": "Gregory Baranes\nSourcing Lab USA\nhttps://sourcinglabusa.com",
+  "can_spam_footer": "Sourcing Lab USA · [ADRESSE POSTALE À COMPLÉTER] · Vous recevez ce message car votre entreprise est susceptible d'être intéressée par nos services de sourcing. Pour ne plus recevoir nos emails, répondez \"UNSUBSCRIBE\"."
+}

@@ -1,0 +1,77 @@
+{
+  "mission_id": "USA-LEADS-20261024-001",
+  "type": "prospection_clients",
+  "client_cible": "Sourcing Lab USA (https://sourcinglabusa.com)",
+  "offre_analysee": "Packaging & textiles custom sourcés usine (Chine/France), factory search, échantillons, suivi production, inspections & landed cost en option, hors freight/customs",
+  "objectif": "10 entreprises américaines prospects clients payants",
+  "brief_path": null,
+  "phases": {
+    "T0_analyse_offre": {
+      "agent": "sourcing-manager",
+      "debut": "2026-10-24T22:41:30+02:00",
+      "fin": "2026-10-24T22:43:00+02:00",
+      "status": "success",
+      "fichier_archive": "/tmp/sourcinglabusa.txt",
+      "urls": 1
+    },
+    "T1_recherche_prospects": {
+      "agent": "sourcing-manager",
+      "debut": "2026-10-24T22:43:00+02:00",
+      "fin": "2026-10-24T22:49:00+02:00",
+      "status": "success",
+      "methode": "DuckDuckGo (ddgs) ~25 requêtes + ImportYeti (extraits indexés, accès direct bloqué Cloudflare)",
+      "candidats_identifies": 16,
+      "candidats_retenus": 10,
+      "ecartements": ["Richards Packaging (siège Vancouver, Canada)", "Gift Bag Lady (pas de site)", "Triple J Bedding (pas de site)", "Royal Bedding (pas de site)", "Workwear International (pas de site)", "Tile International (pas de site)"]
+    },
+    "T2_verification": {
+      "agent": "sourcing-manager",
+      "debut": "2026-10-24T22:43:00+02:00",
+      "fin": "2026-10-24T22:50:00+02:00",
+      "status": "success",
+      "sites_extraits": 21,
+      "preuves_import_demonstrees": 9,
+      "besoins_supposes": 1,
+      "decideurs_publics": 5,
+      "emails_publics": 6,
+      "linkedin_verifies": 5
+    },
+    "T3_synthese": {
+      "agent": "sourcing-manager",
+      "fichier_xlsx": "reports/leads-sourcinglabusa-20261024.xlsx",
+      "fichier_md": "reports/leads-sourcinglabusa-20261024.md",
+      "journaux": ["logs/sources-2026-10-24.csv", "logs/erreurs-2026-10-24.csv"],
+      "decision": "GO — séquence TOP 3 : FAM Brands, Gifts International, PPI Apparel"
+    }
+  },
+  "scores": {
+    "FAM Brands": 87,
+    "Gifts International Inc": 84,
+    "PPI Apparel Group": 82,
+    "Faherty Brand": 78,
+    "REP Fitness": 77,
+    "General Wax & Candle": 76,
+    "THOR Kitchen": 72,
+    "Central Marble & Tile": 68,
+    "Express Tile Of New York": 64,
+    "Original Brands (Versa Group)": 61
+  },
+  "top3": ["FAM Brands", "Gifts International Inc", "PPI Apparel Group"],
+  "timestamps": {
+    "debut": "2026-10-24T22:41:00+02:00",
+    "fin": "2026-10-24T22:52:00+02:00"
+  },
+  "duree_sec": 660,
+  "cout_api_estime_usd": 0.2,
+  "cout_api_note": "Estimation (input+output tokens sur modèle type openrouter) — non mesurée par l'environnement",
+  "taux_reussite": "100% (10/10 prospects livrés avec site officiel)",
+  "pourcentage_source": "96%",
+  "contacts_effectues": 0,
+  "erreurs": [
+    "ImportYeti bloqué par Cloudflare (contourné via extraits indexés DDG)",
+    "5 sociétés écartées : absence de site officiel",
+    "Express Tile Of New York : preuve douanière non appariée → besoin supposé",
+    "5 pages LinkedIn entreprise non identifiées → liens de recherche fournis, non inventés"
+  ],
+  "agents_mobilises": ["sourcing-manager (exécution directe, délégation non disponible dans cette session)"]
+}

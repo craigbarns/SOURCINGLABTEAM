@@ -1,0 +1,65 @@
+version: "1.0.0"
+title: "Recherche de Fournisseurs - Sourcing Lab AI"
+description: "Workflow réutilisable pour rechercher 10-15 fabricants industriels vérifiés avec CSV/XLSX sourcés via Supplier Hunter"
+instructions: |
+  Tu es le Supplier Hunter de SOURCING LAB AI. Exécute la procédure RECHERCHE + VÉRIFICATION du skill sourcing-research-procedures.
+
+  Cahier des charges :
+  - Produit : {{produit}}
+  - Capacités / specs : {{specs}}
+  - Origine cible : {{origine}}
+  - Nombre de fabricants à livrer : {{nombre_fournisseurs}}
+  - Dossier de sortie : {{dossier_sortie}}
+
+  Étapes :
+  1. Génère 8-12 requêtes multilingues adaptées à {{produit}} (EN/ZH/FR)
+  2. Lance recherches `uvx ddgs text` et extrais chaque URL via `curl + html2text`
+  3. Filtre : usines uniquement, anti-trader, déduplication stricte
+  4. Vérifie gamme exacte {{specs}} sur site officiel + fiche MIC/Alibaba
+  5. Produis CSV sourcé (séparateur ; UTF-8-SIG) + README méthodo dans {{dossier_sortie}}
+  6. Respecte : zéro invention, ≥2 URLs par ligne, statut Vérifié le YYYY-MM-DD
+
+  Charge le skill sourcing-research-procedures et applique la procédure 1 et 2.
+prompt: |
+  Recherche {{nombre_fournisseurs}} fabricants pour {{produit}} ({{specs}}) origine {{origine}}.
+  Livre CSV sourcé + README dans {{dossier_sortie}}.
+  Produit: {{produit}} | Specs: {{specs}} | Origine: {{origine}} | Nombre: {{nombre_fournisseurs}} | Dossier: {{dossier_sortie}}
+parameters:
+  - key: produit
+    input_type: string
+    requirement: required
+    description: "Produit à sourcer (ex: seaux PP alimentaires 10L)"
+  - key: specs
+    input_type: string
+    requirement: required
+    description: "Spécifications techniques (ex: PP vierge 100% food-grade 8-16L IML)"
+  - key: origine
+    input_type: string
+    requirement: optional
+    default: "Chine"
+    description: "Pays d'origine cible"
+  - key: nombre_fournisseurs
+    input_type: string
+    requirement: optional
+    default: "10"
+    description: "Nombre de fabricants à livrer"
+  - key: dossier_sortie
+    input_type: string
+    requirement: optional
+    default: "./data"
+    description: "Dossier de sortie pour CSV et README"
+extensions:
+  - type: platform
+    name: developer
+  - type: platform
+    name: summon
+  - type: platform
+    name: analyze
+  - type: platform
+    name: skills
+activities:
+  - "message: 🔍 Recherche de {{nombre_fournisseurs}} fabricants pour {{produit}} ({{specs}}) — Origine {{origine}}"
+  - "Lancer la recherche multilingue pour {{produit}}"
+  - "Vérifier les usines candidates et produire le CSV"
+settings:
+  max_turns: 80

@@ -1,0 +1,28 @@
+{
+  "mission_id": "USA-LEADS-v2-20261024-001",
+  "objectif": "Trouver 20 prospects américains ayant une probabilité élevée de payer une prestation de sourcing international",
+  "nouveau_scoring": true,
+  "scoring_components": [
+    "Adéquation à nos services (25)",
+    "Indices concrets de besoin (25)",
+    "Probabilité de sous‑traiter le sourcing (20)",
+    "Accessibilité du décideur (15)",
+    "Potentiel commercial (15)"
+  ],
+  "penalites": [
+    "Grands groupes avec sourcing intégré (-20)",
+    "Réseau international d'usines déjà établis (-15)",
+    "Contacts uniquement destinés au service client (-10)",
+    "Importations historiques sans signe d'activité récente (-10)",
+    "Absence d'opportunité commerciale identifiable (-5)"
+  ],
+  "date_debut": "2026-10-24T22:54:00+02:00",
+  "phases": {},
+  "agents_mobilises": [],
+  "sources": [],
+  "erreurs": [],
+  "duree_sec": 0,
+  "cout_api_estime_usd": 0,
+  "taux_reussite": "",
+  "pourcentage_source": 0
+}

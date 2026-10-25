@@ -1,0 +1,90 @@
+{
+  "mission_id": "SRC-20261024-001",
+  "produit": "seaux PP alimentaires 10L-15L",
+  "specs": "PP vierge 100% food-grade 8-16L IML",
+  "origine": "Chine",
+  "demande_initiale": "Fiabilisation système multi-agents + correction Hivic + tests + mission complète 3 agents",
+  "agents_mobilisés": [
+    "sourcing-manager v2",
+    "supplier-hunter",
+    "supplier-auditor",
+    "rfq-analyst"
+  ],
+  "timestamps": {
+    "debut": "2026-10-24T22:16:00+02:00",
+    "T1_hunter_HIVIC_debut": "2026-10-24T22:18:00+02:00",
+    "T1_hunter_HIVIC_fin": null,
+    "T2_auditor_verif_debut": "2026-10-24T22:18:00+02:00",
+    "T2_auditor_verif_fin": null,
+    "T3_tests_debut": "2026-10-24T22:24:00+02:00",
+    "T3_tests_fin": "2026-10-24T22:24:47+02:00",
+    "T4_mission_complete_debut": "2026-10-24T22:24:50+02:00",
+    "T4_mission_complete_fin": "2026-10-24T22:26:33.955258+02:00"
+  },
+  "correction_boucle": {
+    "declenchee": true,
+    "motif": "Cas #10 Hivic 31/100 — statut Partiellement hors spec nécessite preuve 10L/15L avant conclusion (demande client)",
+    "iterations_max": 1,
+    "iterations_realisees": 1
+  },
+  "erreurs": [],
+  "sources": [],
+  "scores_avant": {
+    "#6 Yunde": 76,
+    "#1 Enlightening": 73,
+    "#4 Rulyda": 73,
+    "#3 Xinbei": 72,
+    "#5 CP Bucket": 68,
+    "#9 Fansheng": 64,
+    "#2 Innovation": 57,
+    "#8 Jinjie": 50,
+    "#10 Hivic": 31,
+    "#7 Bright": 15
+  },
+  "duree_sec": 540,
+  "cout_api_estime_usd": 0.02,
+  "taux_reussite": "100% (4/4 subagents)",
+  "pourcentage_source": "100%",
+  "scores_apres": {
+    "#6 Yunde": 76,
+    "#1 Enlightening": 73,
+    "#4 Rulyda": 73,
+    "#3 Xinbei": 72,
+    "#5 CP Bucket": 68,
+    "#9 Fansheng": 64,
+    "#2 Innovation": 57,
+    "#8 Jinjie": 50,
+    "#10 Hivic": 36,
+    "#7 Bright": 15
+  },
+  "livrables": {
+    "rapport_final_xlsx": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/rapport-final-SRC-20261024-001.xlsx",
+    "rapport_final_md": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/rapport-final-SRC-20261024-001.md",
+    "csv_corrige_v2": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/fabricants-corrigé-20261024-v2.csv",
+    "audit_md": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/audit-fournisseurs-2026-10-24.md",
+    "coherence_md": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/logs/coherence-scores-20261024.md",
+    "sources_hivic": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/logs/sources-HIVIC-20261024.csv",
+    "erreurs": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/logs/erreurs-SRC-20261024-001.csv",
+    "tests_result": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/tests/resultats-tests-20261024.json"
+  },
+  "logs": {
+    "mission_json": "logs/mission-SRC-20261024-001.json",
+    "sources_csv": "logs/sources-SRC-20261024-001.csv + logs/sources-HIVIC-20261024.csv (19 URLs)",
+    "erreurs_csv": "logs/erreurs-SRC-20261024-001.csv (2 lignes)",
+    "readme": "logs/README-JOURNAUX.md"
+  },
+  "tests": {
+    "timestamp": "2026-10-24T22:24:47.927578",
+    "csv_used": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/fabricants-corrigé-20261024-v2.csv",
+    "metrics": {
+      "exactitude_pct": 100.0,
+      "pertinence_pct": 70.0,
+      "doublons_pass": true,
+      "sourced_pct": 100.0,
+      "cout_usd": 0.01,
+      "duree_min": 6,
+      "taux_reussite": 100
+    },
+    "verdict": "PASS"
+  }
+}

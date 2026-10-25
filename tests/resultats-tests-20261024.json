@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-25T07:12:34.636774",
+  "csv_used": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/reports/fabricants-corrigé-20261024-v2.csv",
+  "metrics": {
+    "exactitude_pct": 100.0,
+    "pertinence_pct": 70.0,
+    "doublons_pass": true,
+    "sourced_pct": 100.0,
+    "cout_usd": 0.01,
+    "duree_min": 6,
+    "taux_reussite": 100
+  },
+  "verdict": "PASS"
+}

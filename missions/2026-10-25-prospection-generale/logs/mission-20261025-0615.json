@@ -1,0 +1,17 @@
+{
+ "mission_id": "SRC-20261025-002",
+ "type": "prospection_clients_usa",
+ "produit": "Services sourcing packaging custom + textiles (Sourcing Lab USA)",
+ "cible": "10 PME US: marques, distributeurs, packaging, articles menagers, materiaux construction",
+ "agents_mobilises": [
+  "sourcing-manager-v2 (T1/T4 interne)"
+ ],
+ "debut": "2026-10-25T06:15:00Z",
+ "sources": [],
+ "erreurs": [],
+ "scores": {},
+ "boucles_correction": 0,
+ "fin": "2026-10-25T05:24:14.998330Z",
+ "resultats": "11 prospects verifies, 10 retenus, Excel+CSV generes dans /deliverables",
+ "cout_api_estime": "~1.50 USD (recherches web DDG gratuites + curls + generation Excel)"
+}

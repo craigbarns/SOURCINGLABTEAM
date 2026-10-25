@@ -1,0 +1,17 @@
+{
+  "mission_id": "",
+  "date": "",
+  "objective_verbatim": "",
+  "steps": [],
+  "anomalies": [],
+  "deliverables": [
+    {"path": "", "sha256": "", "items_count": 0, "validated": false}
+  ],
+  "coverage": {
+    "established": [],
+    "partial": [],
+    "unknown": []
+  },
+  "api_cost_estimate_usd": 0,
+  "final_status": "COMPLETE|PARTIAL|BLOCKED"
+}

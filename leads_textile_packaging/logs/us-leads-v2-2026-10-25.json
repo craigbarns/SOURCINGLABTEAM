@@ -1,0 +1,17 @@
+{
+  "mission": "us-leads-v2",
+  "date": "2026-10-25",
+  "start": "2026-10-25T08:22:00+01:00",
+  "end": "2026-10-25T08:44:23.164530",
+  "prospects_recherches": 40,
+  "prospects_verifies": 15,
+  "sources": [
+    "Brave Search",
+    "r.jina.ai (extraction site)",
+    "Site officiel"
+  ],
+  "taux_sourcing": "100% (15/15 vérifiés)",
+  "csv": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/leads_textile_packaging/temp-us-leads-v2.csv",
+  "xlsx": "/Users/gregorybaranes/Documents/SOURCINGLABTEAM/leads_textile_packaging/us-leads-v2-2026-10-25.xlsx",
+  "fiches_completes": true
+}

@@ -1,0 +1,49 @@
+{
+  "mission_id": "ALO-20261025",
+  "subagent_id": "20261025_5",
+  "date": "2026-10-25",
+  "objective_verbatim": "MISSION : Identifier le responsable production (Head of Production / VP Production / Directeur Manufacturing) de ALO YOGA. [...] Nous sommes une agence de sourcing international (sourcinglabusa.com) [...] AUCUN CONTACT NE DOIT ÊTRE ENVOYÉ — collecte d'information publique uniquement.",
+  "steps": [
+    {"ts": "2026-10-25T05:50:00+01:00", "step": "Recherches DDG initiales (VP/head of production Alo Yoga)", "result": "Bruit générique (Indeed/job boards), pas de nom."},
+    {"ts": "2026-10-25T05:55:00+01:00", "step": "Recherche leadership/CEO", "result": "Co-fondateurs Danny Harris & Marco DeGeorge confirmés (Wikipedia, Forbes, BoF)."},
+    {"ts": "2026-10-25T06:00:00+01:00", "step": "Recherche supply chain offshore", "result": "Trademo (164 imports, Sri Lanka+Vietnam), Volza (203 expéditions, 19 fournisseurs Vietnam/Indonésie/Malaisie), blogs tiers."},
+    {"ts": "2026-10-25T06:05:00+01:00", "step": "Recherche nommée 'at Alo Yoga' + sourcing", "result": "DÉCOUVERTE CLÉ : Joanna Lin — DIRECTOR RAW MATERIALS SOURCING & PRODUCTION at ALO (tw.linkedin.com/in/joanna-lin-8387bb150)."},
+    {"ts": "2026-10-25T06:10:00+01:00", "step": "Corroboration croisée Joanna Lin", "result": "RocketReach (titre identique, Taïwan, ex-Under Armour) + ZoomInfo directory + snippet LinkedIn. 3 sources indépendantes."},
+    {"ts": "2026-10-25T06:15:00+01:00", "step": "Fetch LinkedIn entreprise + profil individuel + RocketReach", "result": "Company page alo-yoga OK (200, 313 Ko, LA). Profil individuel/RocketReach limités (pages dynamiques / Cloudflare CAPTCHA)."},
+    {"ts": "2026-10-25T06:20:00+01:00", "step": "Fetch aloyoga.com/pages/contact", "result": "Emails génériques extraits : customerservice@aloyoga.com, support@aloyoga.com. Pas de press@/info@. Pas d'adresse postale."},
+    {"ts": "2026-10-25T06:30:00+01:00", "step": "Recherches complémentaires VP Supply Chain / email direct", "result": "DDG: 'No results found' (3 requêtes). VP Supply Chain nommé non trouvé publiquement. 1 snippet LinkedIn Jobs: rôle 'Vice President, Distribution Center Automation' (sans nom, hors périmètre)."},
+    {"ts": "2026-10-25T06:45:00+01:00", "step": "Compilations livrables + journal + sources", "result": "4 fichiers créés."}
+  ],
+  "anomalies": [
+    {"item": "Page RocketReach joanna-lin-email_786178368", "status": "record-and-continue", "detail": "Bloquée par Cloudflare CAPTCHA -> email direct NON extrait, statut inconnu (aucune devine)."},
+    {"item": "Fetch direct profil LinkedIn joanna-lin-8387bb150", "status": "record-and-continue", "detail": "Page dynamique, 1,5 Ko seulement -> titre croisé via 3 sources indépendantes (documenté)."},
+    {"item": "Faux positifs recherche LinkedIn", "status": "excluded", "detail": "Brittany W. (Athleta) et Maria Aloyo (Polo Ralph Lauren) = autres entreprises, exclus."}
+  ],
+  "deliverables": [
+    {"path": "deliverables/alo-yoga-contact-2026-10-25.md", "sha256": "PENDING", "items_count": 1, "validated": true},
+    {"path": "deliverables/alo-yoga-contact-2026-10-25.csv", "sha256": "PENDING", "items_count": 10, "validated": true},
+    {"path": "logs/mission-ALO-20261025.json", "sha256": "SELF", "items_count": 1, "validated": true},
+    {"path": "logs/sources-ALO-20261025.csv", "sha256": "PENDING", "items_count": 12, "validated": true}
+  ],
+  "coverage": {
+    "established": [
+      "Décideur production identifié: Joanna Lin, Director Raw Materials Sourcing & Production (3 sources croisées)",
+      "Profil LinkedIn public du décideur (URL)",
+      "Page LinkedIn entreprise Alo Yoga (fetch 200 OK)",
+      "2 emails génériques officiels (customerservice@, support@)",
+      "Preuve d'offshore Asie (Trademo + Volza: Vietnam, Indonésie, Malaisie, Sri Lanka)",
+      "Co-fondateurs Danny Harris & Marco DeGeorge (Wikipedia/Forbes/BoF)"
+    ],
+    "partial": [
+      "Adresse postale US précise (ville Los Angeles uniquement)",
+      "Emails génériques press@/info@/careers@ (non trouvés sur /pages/contact)"
+    ],
+    "unknown": [
+      "Email direct de Joanna Lin (RocketReach bloqué, aucune source publique)",
+      "Nom du VP Supply Chain / VP Production US (non trouvé en recherche publique gratuite)",
+      "Téléphone public US HQ"
+    ]
+  },
+  "api_cost_estimate_usd": 0,
+  "final_status": "PARTIAL"
+}

@@ -1,0 +1,224 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Passer au contenu" [ref=e3] [cursor=pointer]
+    - button "Commentaires sur l’accessibilité" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Retour à la recherche Bing" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Rechercher" [ref=e15] [cursor=pointer]
+        - searchbox "Entrez votre recherche ici - Les suggestions de recherche s’affichera au fur et à mesure de la frappe" [ref=e16]: European fashion brands apparel sourcing agency manufacturing partners
+        - button "Rechercher à l’aide d’une image" [ref=e19] [cursor=pointer]
+    - complementary "Récompenses et préférences du compte" [ref=e21]:
+      - button "Microsoft Rewards" [ref=e22] [cursor=pointer]
+      - link "Connexion" [ref=e23] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Filtre de recherche" [ref=e25]:
+      - list [ref=e26]:
+        - listitem [ref=e27]:
+          - link "Tout" [ref=e28] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e29]:
+          - link "Mode IA" [ref=e30] [cursor=pointer]:
+            - /url: /copilotsearch?q=European+fashion+brands+apparel+sourcing+agency+manufacturing+partners&FORM=CSSCOP
+        - listitem [ref=e33]:
+          - link "Images" [ref=e34] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1a19d664ac10d09f8111ba4de5e4c7757cddfd997a9590b15cdedcb2abdc7e1eJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1L2ltYWdlcy9zZWFyY2g_cT1FdXJvcGVhbitmYXNoaW9uK2JyYW5kcythcHBhcmVsK3NvdXJjaW5nK2FnZW5jeSttYW51ZmFjdHVyaW5nK3BhcnRuZXJzJkZPUk09SERSU0My&ntb=1
+        - listitem [ref=e35]:
+          - link "Vidéos" [ref=e36] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=768d8e84fa2c59383fb224638335fb8468c62bdb6d168ed5d6d53d1adc50e9f5JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1L3ZpZGVvcy9zZWFyY2g_cT1FdXJvcGVhbitmYXNoaW9uK2JyYW5kcythcHBhcmVsK3NvdXJjaW5nK2FnZW5jeSttYW51ZmFjdHVyaW5nK3BhcnRuZXJzJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e37]:
+          - link "Cartes" [ref=e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1e135cb2c7c2e8fcd00d961ae7f17353e0e6f0edd400f98efc1a0c40ba81dd09JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1L21hcHM_cT1FdXJvcGVhbitmYXNoaW9uK2JyYW5kcythcHBhcmVsK3NvdXJjaW5nK2FnZW5jeSttYW51ZmFjdHVyaW5nK3BhcnRuZXJzJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e39]:
+          - link "Actualités" [ref=e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8e20783019041812278473ada37bfb6f27337c09600822c32511ef786deff7b6JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1L25ld3Mvc2VhcmNoP3E9RXVyb3BlYW4rZmFzaGlvbiticmFuZHMrYXBwYXJlbCtzb3VyY2luZythZ2VuY3krbWFudWZhY3R1cmluZytwYXJ0bmVycyZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e41]:
+          - button [ref=e42] [cursor=pointer]
+        - listitem [ref=e46]:
+          - link [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9ec912f79718458d9ce2e426e8e3563dcd476be8e42892a743d07c1d80266102JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9oZWxwLmJpbmcubWljcm9zb2Z0LmNvbS8jYXBleC8xOC9mci8xMDAyMC8tMQ&ntb=1
+            - text: À propos des résultats de recherche
+            - img "À propos des résultats de recherche" [ref=e51]
+  - generic [ref=e52]:
+    - main "Résultats de la recherche" [ref=e53]:
+      - generic [ref=e54]: 205 000 résultats
+      - list [ref=e56]:
+        - listitem [ref=e57]:
+          - link "wikipedia.org" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4a3dafdce907665dcb7444844ebd4f36492ef79c2d49273d63cf3e5a9a6ca5c3JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9FdXJvcGVhbl9Vbmlvbg&ntb=1
+            - generic [ref=e64]:
+              - generic [ref=e65]: wikipedia.org
+              - generic [ref=e66]: https://en.m.wikipedia.org › wiki › European_Union
+          - heading [level=2] [ref=e69]:
+            - link [ref=e70] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4a3dafdce907665dcb7444844ebd4f36492ef79c2d49273d63cf3e5a9a6ca5c3JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9FdXJvcGVhbl9Vbmlvbg&ntb=1
+              - strong [ref=e71]: European Union
+              - text: "- Wikipedia"
+          - paragraph [ref=e73]: "The European Union has seven principal decision-making bodies, its institutions: the European Parliament, the European Council, …"
+        - listitem [ref=e74]:
+          - link "wikipedia.org" [ref=e76] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ab6a5d8c4f025b5de9c1c68ee2c0710c612f5f782c558834b271816b23ea62b4JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9FdXJvcGU&ntb=1
+            - generic [ref=e81]:
+              - generic [ref=e82]: wikipedia.org
+              - generic [ref=e83]: https://en.m.wikipedia.org › wiki › Europe
+          - heading [level=2] [ref=e86]:
+            - link [ref=e87] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=ab6a5d8c4f025b5de9c1c68ee2c0710c612f5f782c558834b271816b23ea62b4JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9FdXJvcGU&ntb=1
+              - strong [ref=e88]: Europe
+              - text: "- Wikipedia"
+          - paragraph [ref=e90]: 27 European states are members of the politico-economic European Union, 29 of the border-free Schengen Area and 21 of the …
+        - listitem [ref=e91]:
+          - link "europa.eu" [ref=e93] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=133ccbaa400593fcd42dcc69d6a7925dae49e45ae8f05cae77d27f79a99ab130JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9ldXJvcGVhbi11bmlvbi5ldXJvcGEuZXUvaW5kZXhfZW4&ntb=1
+            - generic [ref=e98]:
+              - generic [ref=e99]: europa.eu
+              - generic [ref=e100]: https://european-union.europa.eu › index
+          - heading [level=2] [ref=e103]:
+            - link [ref=e104] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=133ccbaa400593fcd42dcc69d6a7925dae49e45ae8f05cae77d27f79a99ab130JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9ldXJvcGVhbi11bmlvbi5ldXJvcGEuZXUvaW5kZXhfZW4&ntb=1
+              - text: Your gateway to the EU, News, Highlights |
+              - strong [ref=e105]: European Union
+          - paragraph [ref=e107]: Facts and figures on the European Union Find out how many EU Member States there are, how big the EU economy is, how people …
+        - listitem [ref=e108]:
+          - link "europa.eu" [ref=e110] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c88238d21649563b76805831d2c3876582723c9e47728b28faf2c715c807b53dJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9jb21taXNzaW9uLmV1cm9wYS5ldS9pbmRleF9lbg&ntb=1
+            - generic [ref=e115]:
+              - generic [ref=e116]: europa.eu
+              - generic [ref=e117]: https://commission.europa.eu › index
+          - heading [level=2] [ref=e120]:
+            - link [ref=e121] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c88238d21649563b76805831d2c3876582723c9e47728b28faf2c715c807b53dJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9jb21taXNzaW9uLmV1cm9wYS5ldS9pbmRleF9lbg&ntb=1
+              - strong [ref=e122]: European
+              - text: Commission, official website -
+              - strong [ref=e123]: European
+              - text: Commission
+          - paragraph [ref=e125]: The official website of the European Commission, providing access to information about its political priorities, policies and services
+        - listitem [ref=e126]:
+          - link "europa.eu" [ref=e128] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6d8ad60751336e59546257633fbdc9b89003cf036aa90b4eb937e039706d4944JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9ldXJvcGVhbi11bmlvbi5ldXJvcGEuZXUvaW5kZXhfZnI&ntb=1
+            - generic [ref=e133]:
+              - generic [ref=e134]: europa.eu
+              - generic [ref=e135]: https://european-union.europa.eu › index_fr
+          - heading [level=2] [ref=e138]:
+            - link [ref=e139] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6d8ad60751336e59546257633fbdc9b89003cf036aa90b4eb937e039706d4944JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9ldXJvcGVhbi11bmlvbi5ldXJvcGEuZXUvaW5kZXhfZnI&ntb=1
+              - text: Votre point d'accès à l'
+              - strong [ref=e140]: Union
+              - text: européenne -
+              - strong [ref=e141]: European Union
+          - paragraph [ref=e143]: The European Commission has set out its vision for fisheries and aquaculture towards 2040. This outlines the course for fishers, …
+        - listitem [ref=e144]:
+          - link "wikipedia.org" [ref=e146] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=20d44b6dfa256acd0eb61f18364c88c977ec08c94e6b5b60ed09b83db9d36d07JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9mci5tLndpa2lwZWRpYS5vcmcvd2lraS9Vbmlvbl9ldXJvcCVDMyVBOWVubmU&ntb=1
+            - generic [ref=e151]:
+              - generic [ref=e152]: wikipedia.org
+              - generic [ref=e153]: https://fr.m.wikipedia.org › wiki › Union_européenne
+          - heading [level=2] [ref=e156]:
+            - link "Union européenne — Wikipédia" [ref=e157] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=20d44b6dfa256acd0eb61f18364c88c977ec08c94e6b5b60ed09b83db9d36d07JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9mci5tLndpa2lwZWRpYS5vcmcvd2lraS9Vbmlvbl9ldXJvcCVDMyVBOWVubmU&ntb=1
+          - paragraph [ref=e159]: Mis en circulation depuis le 1er janvier 2002 sous sa forme fiduciaire pour les particuliers, mais en usage dès le 1er janvier 1999 pour …
+        - listitem [ref=e160]:
+          - link "cambridge.org" [ref=e162] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=160a251014c9419be2a7c212616ce47c995a2ebdb823f582ce20384074c65687JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9lbmdsaXNoL2V1cm9wZWFu&ntb=1
+            - generic [ref=e167]:
+              - generic [ref=e168]: cambridge.org
+              - generic [ref=e169]: https://dictionary.cambridge.org › dictionary › english › european
+          - heading [level=2] [ref=e172]:
+            - link [ref=e173] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=160a251014c9419be2a7c212616ce47c995a2ebdb823f582ce20384074c65687JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9lbmdsaXNoL2V1cm9wZWFu&ntb=1
+              - strong [ref=e174]: European
+              - text: "| English meaning - Cambridge Dictionary"
+          - paragraph [ref=e176]: "European definition: 1. belonging to or relating to Europe or its people: 2. a person from Europe: 3. belonging to or…. Learn more."
+        - listitem [ref=e177]:
+          - link "britannica.com" [ref=e179] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c10136465cafa92fc92980887a6bdb5a3cb86cd9ff534a2ef401415c20f2e8e8JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vcGxhY2UvRXVyb3Bl&ntb=1
+            - generic [ref=e184]:
+              - generic [ref=e185]: britannica.com
+              - generic [ref=e186]: https://www.britannica.com › place › Europe
+          - heading [level=2] [ref=e189]:
+            - link [ref=e190] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c10136465cafa92fc92980887a6bdb5a3cb86cd9ff534a2ef401415c20f2e8e8JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vcGxhY2UvRXVyb3Bl&ntb=1
+              - strong [ref=e191]: Europe
+              - text: "| History, Countries, Map, & Facts | Britannica"
+          - paragraph [ref=e193]: Il y a 1 jour · The creation of the European Economic Community in 1957 and the EU in 1993 greatly enhanced economic …
+        - listitem [ref=e194]:
+          - link "bbc.com" [ref=e196] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0af092bd95d8ba3e20050bff4ffb04f86b98e9818e497b64ad1365fee284dbdbJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL3dvcmxkL2V1cm9wZQ&ntb=1
+            - generic [ref=e201]:
+              - generic [ref=e202]: bbc.com
+              - generic [ref=e203]: https://www.bbc.com › news › world › europe
+          - heading [level=2] [ref=e206]:
+            - link [ref=e207] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=0af092bd95d8ba3e20050bff4ffb04f86b98e9818e497b64ad1365fee284dbdbJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL3dvcmxkL2V1cm9wZQ&ntb=1
+              - text: Europe | Latest News & Updates |
+              - strong [ref=e208]: BBC News
+          - paragraph [ref=e210]: Get all the latest news, live updates and content about Europe from across the BBC.
+        - listitem [ref=e211]:
+          - link "britannica.com" [ref=e213] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=323c9fa4865a5c639f0adcd9b7bc99f985fc43c99942fb7c2c2e2100d7e66e0aJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vdG9waWMvRXVyb3BlYW4tVW5pb24&ntb=1
+            - generic [ref=e218]:
+              - generic [ref=e219]: britannica.com
+              - generic [ref=e220]: https://www.britannica.com › topic › European-Union
+          - heading [level=2] [ref=e223]:
+            - link [ref=e224] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=323c9fa4865a5c639f0adcd9b7bc99f985fc43c99942fb7c2c2e2100d7e66e0aJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vdG9waWMvRXVyb3BlYW4tVW5pb24&ntb=1
+              - strong [ref=e225]: European Union
+              - text: (EU) | Definition, Flag, Purpose, History, & Members ...
+          - paragraph [ref=e227]: Il y a 2 jours · European Union (EU), international organization comprising 27 European countries and governing common economic, …
+        - listitem [ref=e228]:
+          - navigation "Plus de résultats pour European fashion brands apparel sourcing agency manufacturing partners":
+            - list:
+              - listitem [ref=e229]:
+                - generic "Page 1" [ref=e230]: "1"
+              - listitem [ref=e231]:
+                - link "Page 2" [ref=e232] [cursor=pointer]:
+                  - /url: /search?q=European+fashion+brands+apparel+sourcing+agency+manufacturing+partners&FPIG=6E0BA48046324AA39F53ED5F93BFB0CC&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e233]:
+                - link "Page 3" [ref=e234] [cursor=pointer]:
+                  - /url: /search?q=European+fashion+brands+apparel+sourcing+agency+manufacturing+partners&FPIG=6E0BA48046324AA39F53ED5F93BFB0CC&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e235]:
+                - link "Page 4" [ref=e236] [cursor=pointer]:
+                  - /url: /search?q=European+fashion+brands+apparel+sourcing+agency+manufacturing+partners&FPIG=6E0BA48046324AA39F53ED5F93BFB0CC&first=31&FORM=PERE2
+                  - text: "4"
+              - listitem [ref=e237]:
+                - link "Page suivante" [ref=e238] [cursor=pointer]:
+                  - /url: /search?q=European+fashion+brands+apparel+sourcing+agency+manufacturing+partners&FPIG=6E0BA48046324AA39F53ED5F93BFB0CC&first=11&FORM=PORE
+    - complementary "Résultats supplémentaires" [ref=e239]:
+      - list
+    - complementary "En savoir plus"
+  - contentinfo [ref=e240]:
+    - generic [ref=e241]:
+      - generic [ref=e242]: © 2026 Microsoft Corporation
+      - list:
+        - listitem [ref=e243]:
+          - generic: Gérer les préférences des cookies
+        - listitem [ref=e245]:
+          - link "Confidentialité et cookies" [ref=e246] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a912c55320ee6d147bfeeab07aa44af5f8d91d927464aa6fa9182e624d1ff0eaJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e247]:
+          - link "Légal" [ref=e248] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=629ab3a24c7f13f0a4921a7f38c28c21d2ba26d18470e07d76ef1be95b797c37JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+        - listitem [ref=e249]:
+          - link "Passer une annonce" [ref=e250] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d6e81cceec2aed5553396f8b49d87df4d4cf71166ddc432d46ae4056293cf816JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9nby5taWNyb3NvZnQuY29tL2Z3bGluay8_bGlua2lkPTg2ODkyMg&ntb=1
+        - listitem [ref=e251]:
+          - link "À propos de nos annonces" [ref=e252] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ac9076926baf8d47bd412488d34b4054efcd45363fd1affa0494594f29231607JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9Mjg2NzU5&ntb=1
+        - listitem [ref=e253]:
+          - link "Aide" [ref=e254] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=494cdb83e1cc98d2f1c964e3f21f86014c19ca4c99920350aaab1a15cf3501a8JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vdG9waWMvODJkMjA3MjEtMmQ2Zi00MDEyLWExM2QtZDE5MTBjY2YyMDNm&ntb=1
+        - listitem [ref=e255]:
+          - button "Votre avis" [ref=e256] [cursor=pointer]
+        - listitem [ref=e257]:
+          - link "Contenu illicite" [ref=e258] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bb273e087c97e9cb1e5e7098b49d015c8103dcb745ccd22151dd2464094f43cdJmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cDovL3d3dy5wb2ludGRlY29udGFjdC5uZXQvY2xpcXVlei1zaWduYWxleg&ntb=1
+        - listitem [ref=e259]:
+          - link "la protection des données européennes" [ref=e260] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=36464d5a8c9c1e362bc954cf05c16600b12b452c04a0dea5aa648dfadaa2a031JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cDovL2hlbHAuYmluZy5taWNyb3NvZnQuY29tLyNhcGV4LzE4L0ZSLzEwMDEzLy0xL0ZS&ntb=1
+        - listitem [ref=e261]:
+          - link "À propos de la recherche Bing" [ref=e262] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9ec912f79718458d9ce2e426e8e3563dcd476be8e42892a743d07c1d80266102JmltdHM9MTc5Mjg4NjQwMA&ptn=3&ver=2&hsh=4&fclid=0e4abb70-463a-6ae4-32ef-ac8d474e6b58&u=a1aHR0cHM6Ly9oZWxwLmJpbmcubWljcm9zb2Z0LmNvbS8jYXBleC8xOC9mci8xMDAyMC8tMQ&ntb=1

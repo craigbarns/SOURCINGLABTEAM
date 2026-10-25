@@ -1,0 +1,23 @@
+# Secrets & config
+.email_config.json
+*.pem
+*.key
+.env
+.env.*
+
+# Outbox (emails brouillons avec données prospects)
+deliverables/outbox/
+
+# Données de mission temporaires
+temp-*.csv
+*.tmp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# XLSX binaires volumineux (régénérables depuis CSV)
+# *.xlsx

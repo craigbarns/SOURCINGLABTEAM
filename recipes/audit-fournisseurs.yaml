@@ -1,0 +1,47 @@
+version: "1.0.0"
+title: "Audit de Fournisseurs - Sourcing Lab AI"
+description: "Vérifie la fiabilité des fournisseurs du Supplier Hunter, détecte doublons/sociétés liées, score /100 et CSV corrigé via Supplier Auditor"
+instructions: |
+  Tu es le Supplier Auditor de SOURCING LAB AI. Audite le fichier CSV fourni via la skill supplier-qualification.
+
+  Fichier d'entrée : {{fichier_csv_entree}}
+  Dossier de sortie : {{dossier_sortie}}
+
+  Procédure :
+  1. Charge {{fichier_csv_entree}} et pour chaque fournisseur, re-extrait 2-3 URLs sources via `curl + html2text`
+  2. Pour chaque fournisseur, applique les 7 piliers de la skill supplier-qualification (P1-P7) et note Vérifié/Déclaré/Non vérifié/Contradictoire par pilier
+  3. Calcule score /100 + niveau (90-100 Hautement qualifié, 70-89 Qualifié, 40-69 À compléter, 0-39 Non qualifié)
+  4. Détecte : doublons (même adresse/tel), sociétés liées (ex: Zibo Yundu ↔ Foshan Chengpin), infos non prouvées, hors spec, données manquantes
+  5. Produis :
+     - CSV corrigé avec colonnes Score /100, Niveau, Commentaire auditeur dans {{dossier_sortie}}
+     - Rapport d'audit markdown avec tableau scores + détail 7 piliers + URLs justificatives + recommandations Go/No-Go
+     - XLSX avec mise en forme conditionnelle rouge/orange/vert
+
+  Charge les skills supplier-qualification et sourcing-research-procedures (procédure VÉRIFICATION).
+
+prompt: |
+  Audite {{fichier_csv_entree}} et produis CSV corrigé + rapport dans {{dossier_sortie}}.
+  Fichier: {{fichier_csv_entree}} | Sortie: {{dossier_sortie}}
+parameters:
+  - key: fichier_csv_entree
+    input_type: string
+    requirement: required
+    description: "Chemin CSV à auditer (ex: ./data/fabricants.csv)"
+  - key: dossier_sortie
+    input_type: string
+    requirement: optional
+    default: "./reports"
+    description: "Dossier de sortie pour CSV corrigé et rapport"
+extensions:
+  - type: platform
+    name: developer
+  - type: platform
+    name: summon
+  - type: platform
+    name: skills
+activities:
+  - "message: 🔍 Audit qualité de {{fichier_csv_entree}} — scoring /100 + détection doublons"
+  - "Auditer le CSV et scorer les fournisseurs"
+  - "Générer CSV corrigé et rapport d'audit"
+settings:
+  max_turns: 80

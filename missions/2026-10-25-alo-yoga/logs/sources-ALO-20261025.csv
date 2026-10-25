@@ -1,0 +1,14 @@
+source_id,url,date_consultation,type_preuve,donnee_obtenue,fiabilite
+S01,https://en.wikipedia.org/wiki/Alo_Yoga,2026-10-25,documente,"Fondateurs Danny Harris & Marco DeGeorge, 2007, Los Angeles, Color Image Apparel",haute
+S02,https://www.forbes.com/profile/danny-harris/,2026-10-25,documente,"Co-propriétaire Alo Yoga",haute
+S03,https://www.forbes.com/profile/marco-degeorge/,2026-10-25,documente,"Co-propriétaire Alo Yoga",haute
+S04,https://www.businessoffashion.com/people/danny-harris/,2026-10-25,documente,"Co-CEO Alo",haute
+S05,https://tw.linkedin.com/in/joanna-lin-8387bb150,2026-10-25,documente,"Headline: DIRECTOR RAW MATERIALS SOURCING & PRODUCTION at ALO",haute
+S06,https://rocketreach.co/joanna-lin-email_786178368,2026-10-25,documente,"Titre identique; based in Taiwan; ex-Under Armour. Page bloquée Cloudflare CAPTCHA (email non extrait)",haute_titre/inconnu_email
+S07,https://www.linkedin.com/company/alo-yoga/,2026-10-25,documente,"Company page HTTP 200 (313 Ko), description ALO, HQ Los Angeles California",haute
+S08,https://www.aloyoga.com/pages/contact,2026-10-25,documente,"Emails génériques: customerservice@aloyoga.com, support@aloyoga.com",haute
+S09,https://www.trademo.com/companies/alo-yoga/26363608,2026-10-25,documente,"164 importations, 252 exportations; top sourcing: Sri Lanka, Vietnam",haute
+S10,https://www.volza.com/company-profile/alo-yoga-57569/,2026-10-25,documente,"203 expéditions d'import depuis 19 fournisseurs vérifiés: Vietnam, Indonésie, Malaisie",haute
+S11,https://robhessyoga.com/where-does-alo-yoga-manufacturer.html,2026-10-25,declare,"Everest Textile (Taïwan), production Chine/Vietnam/Indonésie",moyenne
+S12,https://asgfashions.com/where-is-alo-yoga-manufactured/ + fukiyoga.com,2026-10-25,declare,"Fabrication USA + Vietnam + Chine; tissus taïwanais",moyenne
+S13,Snippet LinkedIn Jobs (via DDG, 2026-10-25),2026-10-25,declare,"Poste Director Supply Chain Automation; reporting à 'Vice President, Distribution Center Automation' (sans nom)",moyenne
