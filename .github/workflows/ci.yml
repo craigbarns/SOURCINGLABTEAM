@@ -21,8 +21,18 @@ jobs:
 
       - name: Install Goose CLI
         run: |
+          # Pré-créer une config minimale pour éviter l'assistant interactif (pas de /dev/tty en CI)
+          mkdir -p ~/.config/goose
+          printf '%s\n' \
+            'extensions:' \
+            '  developer:' \
+            '    enabled: false' \
+            'GOOSE_PROVIDER: dummy' \
+            'GOOSE_MODE: approve' \
+            > ~/.config/goose/config.yaml
           curl -fsSL https://github.com/block/goose/releases/download/stable/download_cli.sh | bash
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+          goose --version
 
       - name: Valider les recettes Goose
         run: |
