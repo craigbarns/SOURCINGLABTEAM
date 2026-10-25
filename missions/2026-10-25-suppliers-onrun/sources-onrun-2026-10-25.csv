@@ -1,0 +1,15 @@
+date_consultation;type_source;url;contenu_extrait;statut_acces
+2026-10-25;sec_filing;https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/onholdingag-20251231.htm;20-F FY2025: chaussures 90% Vietnam / 10% Indonesia, 10 fournisseurs chaussure (8 VN + 2 ID); apparel 65% VN / 29% Turquie / 6% Chine, 16 fournisseurs; <30 fournisseurs manufacturing au total; 6 fournisseurs clés = ~70% de la production; textiles warp-knitted par quelques grands producteurs VN/CN/TW/KR (noms non divulgués);accessible
+2026-10-25;douanes;https://www.importyeti.com/company/on-running-canada;On Running Canada (Vancouver): 657 expéditions maritimes US 03/2019-10/2026, dernière 10/19/2026. Répartition: Vietnam 544, Indonesia 75, China 16, Italy 1, NL 1, US 1. Table fournisseurs complète extraite: 14 noms;accessible (via navigateur Playwright - Cloudflare bloque curl)
+2026-10-25;douanes;https://www.importyeti.com/supplier/long-rich-indonesia;PT Long Rich Indonesia: client principal vérifié, exportations vers On;accessible
+2026-10-25;site_officiel;https://www.on.com/en-us/company-information;Infos légales On AG: siège Förrlibuckstrasse 190 Zurich, UID CHE-115.337.337 (voir CSV contacts), bureaux Portland/Tokyo/Vancouver/Shanghai/São Paulo, représentants autorisés (Coppetti, Allemann, Sluis, Kühne, Pender, Griffin, Bernhard);accessible
+2026-10-25;site_officiel;https://press.on-running.com/;Email presse: press@on.com;accessible
+2026-10-25;site_officiel;https://www.on.com/en-us/contact-us;Pas d'email public - form de contact avec sélecteur topic;accessible
+2026-10-25;site_officiel;https://backstage.on-running.com/login;Portail sales reps (wholesale B2B) - accès réservé;accessible
+2026-10-25;site_officiel;https://www.on.com/en-us/explore/on-coupa-supplier-portal;Portail fournisseur officiel Coupa (procure-to-pay);accessible
+2026-10-25;site_officiel;https://investors.on-running.com/;Site IR (investor relations);accessible
+2026-10-25;presse;https://financialfilings.com/filings/on-holding-ag/annual-report/2026/32899945/;Annual Report 2025: "Substantially all of our products are manufactured by third-party manufacturers" + Supplier Code of Conduct requis;accessible (résultat ddgs)
+2026-10-25;blog;https://csimarket.com/stocks/ONON-Suppliers;"Production 2025 dépend de six key suppliers ~70% du volume. Footwear: 10 suppliers (8 VN, 2 ID)" - corrobore le 20-F;403 via fetch/curl (contenu visible via snippet ddgs)
+2026-10-25;blog;https://decentfoot.com/where-are-on-running-shoes-made-2/;Article générique contradictoire (VN vs Portugal/Chine) - fiabilité faible, écarté;accessible (non retenu)
+2026-10-25;contact_bol;BOL douanes 6203.43.0020 (page On Running Canada);Contact logistique visible sur document douanier public: Melissa Perez, melissa.perez@on-running.com, tel 404-820-1776, Ship To: On AG c/o Kuehne Nagel Ltd, 6335 Edwards Blvd Mississauga, Ont. Canada L5T 2W7;accessible
+2026-10-25;methodologie;Extraction table fournisseurs via Playwright evaluate -> missions/2026-10-25-suppliers-onrun/raw-suppliers-table.txt;Données brutes sauvegardées pour traçabilité;accessible
