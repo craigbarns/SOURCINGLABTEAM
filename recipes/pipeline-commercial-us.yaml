@@ -37,10 +37,30 @@ instructions: >
      la demande en cahier des charges exploitable (CDC), puis rechercher fournisseurs
      et comparer cotations via les recettes existantes.
 prompt: |
-  Segmente cible : {{ domain/segment }}
-  Zone géographique : {{ region }}
-  Nombre de prospects visés : {{ count }}
-  Fichier de prospects existant (optionnel) : {{ existing_leads_file }}
+  Segmente cible : {{segment}}
+  Zone géographique : {{region}}
+  Nombre de prospects visés : {{count}}
+  Fichier de prospects existant (optionnel) : {{existing_leads_file}}
+parameters:
+  - key: segment
+    input_type: string
+    requirement: required
+    description: "Segment cible (ex: marques textile DTC, distributeurs packaging janitorial)"
+  - key: region
+    input_type: string
+    requirement: optional
+    default: "USA"
+    description: "Zone géographique des prospects"
+  - key: count
+    input_type: string
+    requirement: optional
+    default: "20"
+    description: "Nombre de prospects visés"
+  - key: existing_leads_file
+    input_type: string
+    requirement: optional
+    default: "aucun"
+    description: "Fichier CSV de prospects existant à réintégrer (sinon recherche fraîche)"
 activities: []
 authors: []
 extensions: []
