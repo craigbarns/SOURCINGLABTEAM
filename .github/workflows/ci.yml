@@ -19,18 +19,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Goose CLI
+      - name: Install Goose CLI (binaire direct, non-interactif)
         run: |
-          # Pré-créer une config minimale pour éviter l'assistant interactif (pas de /dev/tty en CI)
-          mkdir -p ~/.config/goose
-          printf '%s\n' \
-            'extensions:' \
-            '  developer:' \
-            '    enabled: false' \
-            'GOOSE_PROVIDER: dummy' \
-            'GOOSE_MODE: approve' \
-            > ~/.config/goose/config.yaml
-          curl -fsSL https://github.com/block/goose/releases/download/stable/download_cli.sh | bash
+          mkdir -p ~/.local/bin
+          curl -fsSL -o /tmp/goose.tar.bz2 \
+            https://github.com/block/goose/releases/latest/download/goose-x86_64-unknown-linux-gnu.tar.bz2
+          tar -xjf /tmp/goose.tar.bz2 -C ~/.local/bin
+          chmod +x ~/.local/bin/goose
           echo "$HOME/.local/bin" >> $GITHUB_PATH
           goose --version
 
