@@ -69,10 +69,35 @@ Passer `enabled: true` après insertion de la clé. Vérifier les noms exacts de
 
 ## Checklist d'installation (Gregory)
 
-1. [ ] Créer compte Firecrawl → copier API key → coller dans config → `enabled: true` → redémarrer Goose
-2. [ ] Créer compte Hunter.io (free tier) → API key → coller → `enabled: true` → redémarrer
-3. [ ] Créer compte Exa → API key → tester 5 requêtes B2B contre `ddgs` et noter le gagnant dans ce fichier
-4. [ ] Lancer une mission supplier-hunter de test post-install et comparer : temps, nombre de sources, qualité contacts
+1. [x] Clé Hunter.io fournie et validée (plan Free 50 crédits/mois) — 2026-10-25
+2. [x] Clé Firecrawl fournie et validée (test scrape example.com OK) — 2026-10-25
+3. [x] Config écrite dans `~/.config/goose/config.yaml` (hors repo) :
+   - `hunter` : type `streamable_http`, `uri: https://mcp.hunter.io/mcp`, header `X-API-Key` (format vérifié dans le code source Goose `crates/goose/src/agents/extension.rs` — variant StreamableHttp avec champs uri/headers/timeout)
+   - `firecrawl` : type `stdio`, `npx -y firecrawl-mcp` (package npm officiel), env `FIRECRAWL_API_KEY`
+   - YAML validé par parse (26 extensions, hunter + firecrawl actifs)
+4. [ ] **RESTART GOOSE requis** (action Gregory : quitter et relancer l'app / nouvelle session) — les outils n'apparaissent pas dans la session courante
+5. [ ] Après restart : mission supplier-hunter de test (comparer temps / sources / qualité contacts vs baseline du 2026-10-25)
+
+### Config finale installée (clés masquées)
+
+```yaml
+  hunter:
+    enabled: true
+    type: streamable_http
+    uri: https://mcp.hunter.io/mcp
+    headers:
+      X-API-Key: "<CLÉ_HUNTER>"     # réel dans ~/.config/goose/config.yaml
+    timeout: 300
+
+  firecrawl:
+    enabled: true
+    type: stdio
+    cmd: npx
+    args: [-y, firecrawl-mcp]
+    envs:
+      FIRECRAWL_API_KEY: "<CLÉ_FIRECRAWL>"  # réel dans ~/.config/goose/config.yaml
+    timeout: 300
+```
 
 ## Impact par agent (mis à jour dans .agents/agents/*.md)
 
