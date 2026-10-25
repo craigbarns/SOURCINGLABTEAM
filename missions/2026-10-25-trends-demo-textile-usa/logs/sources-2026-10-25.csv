@@ -1,0 +1,14 @@
+timestamp;agent;source_nom;type;url;statut;notes
+2026-10-25T10:28+01:00;trend-hunter;DuckDuckGo (ddgs text);moteur;https://duckduckgo.com/?q=textile+fashion+trends+USA+this+week+2026;OK;6 resultats extraits — filtres pays/periode non controles en CLI
+2026-10-25T10:29+01:00;trend-hunter;globaltextiletimes.com;presse textile;https://www.globaltextiletimes.com/technology/fashion-trends-influencing-fabric-innovation-in-2026/;extrait;metadonnees + extrait ddgs seulement — pas de consultation complete
+2026-10-25T10:29+01:00;trend-hunter;heuritech.com;presse mode/data;https://heuritech.com/articles/fashion-fabric-innovations/;extrait;extrait ddgs seulement
+2026-10-25T10:29+01:00;trend-hunter;xofabric.com;presse textile;https://www.xofabric.com/2026-textile-market-trends/;extrait;date de publication non affichee clairement
+2026-10-25T10:29+01:00;trend-hunter;clothingdigest.com;presse couture;https://clothingdigest.com/2026-fabric-trends-whats-in-out-what-to-sew/;extrait;palette partiellement divergente (Cloud Dancer; cobalt; boucle; linen)
+2026-10-25T10:29+01:00;trend-hunter;stylingoutfits.com;blog mode;https://www.stylingoutfits.com/current-fashion-trends/;extrait;non retenue (redondant)
+2026-10-25T10:29+01:00;trend-hunter;texturly.com;blog textile;https://www.texturly.com/blog/top-textile-texture-trends-transforming-fashion-in-2026-and-beyond;extrait;source T3
+2026-10-25T10:30+01:00;trend-hunter;Amazon Best Sellers Apparel;classement ventes;https://www.amazon.com/Best-Sellers/zgbs/apparel;INACCESSIBLE;HTTP 200 (109618 octets) mais extraction html2text impossible (mur bot) — aucun classement consultable
+2026-10-25T10:31+01:00;trend-hunter;Google Trends Explore;interet de recherche;https://trends.google.com/trends/explore?geo=US&q=fleece+jacket;INACCESSIBLE;HTTP 429 Too Many Requests sans JS/session
+2026-10-25T10:31+01:00;trend-hunter;TikTok Creative Center;attention sociale;https://ads.tiktok.com/business/creativecenter;INACCESSIBLE;non tente (connexion requise) — signale
+2026-10-25T10:31+01:00;trend-hunter;Pinterest Trends;interet de recherche;https://www.pinterest.com/ideas/fall-2026-color-trends-fashion/904840280937/;extrait;pages idees visibles via resultats — metrics non accessibles
+2026-10-25T10:31+01:00;trend-hunter;vogue.com;presse mode;https://www.vogue.com/article/fall-2026-color-trends;extrait;donnees datees 2026-08-21
+2026-10-25T10:31+01:00;trend-hunter;heystylehey.com;blog mode;https://heystylehey.com/fall-2026-color-trends/;extrait;donnees datees 2026-08-22

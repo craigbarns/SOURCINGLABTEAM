@@ -287,6 +287,31 @@ goose recipe validate ~/.config/goose/recipes/*.yaml
 
 ---
 
+## 8 bis. AGENT TREND-HUNTER (veille tendances à la demande)
+
+**trend-hunter** (`.agents/agents/trend-hunter.md`) recherche à la demande les tendances actuelles du marché (produits, styles, matières, couleurs, usages). Distingue systématiquement **attention sociale** (vues ≠ ventes), **intérêt de recherche** (indice Trends ≠ volume absolu) et **signal commercial** (classement Amazon ≠ unités vendues). Sources : Google Trends, TikTok Creative Center, Pinterest Trends, Amazon Best Sellers/Movers & Shakers, sites de marques, presse sectorielle — selon accessibilité réelle (les sources inaccessibles sont signalées comme telles).
+
+- **Aucune veille automatique** : se lance uniquement quand tu le sollicites
+- Marché par défaut : USA | Secteur par défaut : textile et accessoires (configurables)
+- Livrables par mission : rapport MD + CSV + JSON + journal des sources (URL exacte, mesure, unité, période, pays, date de consultation, limites)
+- Règles : ≥ 2 sources indépendantes pour corroboration ; phases émergente/croissance/établie/essoufflement ; faits vs interprétations vs hypothèses vs inconnus ; aucune invention de coût/MOQ/marge/CA
+- Conventions complètes : `playbook/trend-analysis.md`
+
+### Utilisation
+
+**En chat Goose :**
+```
+Quelles tendances textiles progressent aux USA cette semaine ?
+Quelles tendances packaging présentent une opportunité de sourcing aux États-Unis sur les 30 derniers jours ?
+```
+
+**En recette :**
+```bash
+goose run --recipe veille-tendances --params secteur="textile et accessoires" marche="États-Unis" periode="7 derniers jours" max_tendances="10" objectif="opportunité de sourcing"
+```
+
+**Via le sourcing-manager** : il délègue à trend-hunter quand une mission concerne les tendances, puis propose (sans lancer) les suites : brief-engineer, supplier-hunter, us-lead-hunter-v2, lead-auditor.
+
 ## 9. PROCHAINES ÉTAPES RECOMMANDÉES
 
 ### Journal des corrections et améliorations (2026-10-25)

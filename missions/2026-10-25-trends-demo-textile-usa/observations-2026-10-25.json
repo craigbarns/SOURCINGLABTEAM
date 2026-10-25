@@ -1,0 +1,104 @@
+{
+  "mission_id": "TRENDS-20261025-DEMO",
+  "agent": "trend-hunter",
+  "type": "demonstration limitee (3 tendances)",
+  "started_at": "2026-10-25T10:28:00+01:00",
+  "parametres": {
+    "secteur": "textile et accessoires",
+    "marche": "Etats-Unis",
+    "periode_principale": "7 derniers jours (donnees consultables effectives : articles aout-oct 2026)",
+    "periode_comparaison": "non calculable (pas de donnees comparables accessibles)",
+    "max_tendances": 3,
+    "objectif": "opportunite de sourcing"
+  },
+  "filtres_recherches": {
+    "moteur": "DuckDuckGo (ddgs text)",
+    "langue/zone": "US implicite des resultats — non verifiable au niveau du moteur",
+    "limitation": "les filtres pays/periode exacts du moteur ne sont pas controles en CLI"
+  },
+  "tendances": [
+    {
+      "id": "T1",
+      "tendance": "Textiles intelligents et fibres bio-cellulosiques durables",
+      "phase": "en croissance",
+      "corrobore": true,
+      "sources_independantes": ["globaltextiletimes.com", "heuritech.com", "xofabric.com"],
+      "signals": {
+        "attention_sociale": "non mesuree (pas d'acces TikTok/Pinterest metrics)",
+        "interet_de_recherche": "non mesure (Google Trends inaccessible HTTP 429)",
+        "signal_commercial": "lancements et couverture editoriale recurrente; aucun classement de ventes consultable"
+      },
+      "evolution_mesuree": "non calculable (pas de valeurs numeriques comparables)",
+      "fait_observe": "3 publications independantes (2026) identifient smart textiles et bio-cellulosiques comme moteurs 2026",
+      "interpretation": "la demande R&D matiere se structure chez les marques",
+      "hypothese": "marques US pretes a payer un sur-prix pour duree/fonction",
+      "inconnu": "volumes, prix, MOQ, marge",
+      "opportunite_sourcinglab": "positionner un service de veille fournisseurs 'matieres innovantes' pour marques US",
+      "prochaine_action": "sur demande : us-lead-hunter-v2 sur marques smart-textiles US",
+      "sources": [
+        {"url": "https://www.globaltextiletimes.com/technology/fashion-trends-influencing-fabric-innovation-in-2026/", "plateforme": "presse textile", "consulte_le": "2026-10-25", "limite": "article editorial, pas de donnees chiffrees"},
+        {"url": "https://heuritech.com/articles/fashion-fabric-innovations/", "plateforme": "presse mode/data", "consulte_le": "2026-10-25", "limite": "acteur industriel, biais possible"},
+        {"url": "https://www.xofabric.com/2026-textile-market-trends/", "plateforme": "presse textile", "consulte_le": "2026-10-25", "limite": "article de fond, date de publication non affichee clairement"}
+      ]
+    },
+    {
+      "id": "T2",
+      "tendance": "Couleurs automne 2026 : violet royal, peach, browns earthy + hot pink",
+      "phase": "en croissance (saisonnal)",
+      "corrobore": true,
+      "sources_independantes": ["vogue.com", "heystylehey.com", "clothingdigest.com"],
+      "signals": {
+        "attention_sociale": "presence Pinterest (pages idees fall 2026 color trends) — volume non mesure",
+        "interet_de_recherche": "non mesure (Google Trends HTTP 429)",
+        "signal_commercial": "aucun (Amazon extraction impossible)"
+      },
+      "evolution_mesuree": "non calculable",
+      "fait_observe": "Vogue (21 aout 2026) et heystylehey (22 aout 2026), sources independantes, convergent sur les memes palettes",
+      "interpretation": "palette fall 2026 deja diffusee dans la presse mode grand public",
+      "hypothese": "fenetre d'achat textiles/couleurs pour la saison fall 2026 en cours",
+      "inconnu": "saturation apres la saison, volumes",
+      "opportunite_sourcinglab": "sourcing teinture/impression pour marques DTC US qui lancent des capsules fall/holiday",
+      "prochaine_action": "sur demande : brief-engineer sur une capsule couleur, puis recherche fournisseurs",
+      "attention_donnees": "articles dates aout 2026 — consultation 2026-10-25 ; la donnee couvre le debut de la saison, pas la semaine passee",
+      "sources": [
+        {"url": "https://www.vogue.com/article/fall-2026-color-trends", "plateforme": "presse mode", "consulte_le": "2026-10-25", "date_donnees": "2026-08-21", "limite": "grand public, pas de chiffres"},
+        {"url": "https://heystylehey.com/fall-2026-color-trends/", "plateforme": "blog mode", "consulte_le": "2026-10-25", "date_donnees": "2026-08-22", "limite": "blog independant"},
+        {"url": "https://clothingdigest.com/2026-fabric-trends-whats-in-out-what-to-sew/", "plateforme": "presse couture", "consulte_le": "2026-10-25", "limite": "mentionne Cloud Dancer whites, cobalt blues, boucle, linen — palette partiellement differente"}
+      ]
+    },
+    {
+      "id": "T3",
+      "tendance": "Textures matiere : boucle, lin, finitions tactiles",
+      "phase": "signal a confirmer",
+      "corrobore": false,
+      "sources_independantes": ["clothingdigest.com", "texturly.com"],
+      "signals": {
+        "attention_sociale": "non mesuree",
+        "interet_de_recherche": "non mesure",
+        "signal_commercial": "non mesure"
+      },
+      "evolution_mesuree": "non calculable",
+      "fait_observe": "2 sources independantes citent boucle et lin parmi les matieres tendance 2026",
+      "interpretation": "regain d'interet pour les matieres tactiles",
+      "hypothese": "demande saisonniere automne/hiver",
+      "inconnu": "tout le quantitatif",
+      "opportunite_sourcinglab": "a confirmer avant toute action (source editoriale uniquement)",
+      "prochaine_action": "corroboration supplementaire necessaire (ex: donnees Pinterest Trends si acces obtenu)",
+      "sources": [
+        {"url": "https://clothingdigest.com/2026-fabric-trends-whats-in-out-what-to-sew/", "plateforme": "presse couture", "consulte_le": "2026-10-25", "limite": "editorial"},
+        {"url": "https://www.texturly.com/blog/top-textile-texture-trends-transforming-fashion-in-2026-and-beyond", "plateforme": "blog textile", "consulte_le": "2026-10-25", "limite": "editorial, acteur du secteur"}
+      ]
+    }
+  ],
+  "sources_inaccessibles": [
+    {"url": "https://www.amazon.com/Best-Sellers/zgbs/apparel", "raison": "HTTP 200 mais extraction html2text impossible (mur bot) — classements Best Sellers/Movers & Shakers non consultables", "consulte_le": "2026-10-25T10:30+01:00"},
+    {"url": "https://trends.google.com/trends/explore?geo=US&q=fleece+jacket", "raison": "HTTP 429 Too Many Requests sans JS/session", "consulte_le": "2026-10-25T10:31+01:00"},
+    {"url": "https://ads.tiktok.com/business/creativecenter", "raison": "non tente cette demo (acces connecte requis) — signale comme inaccessible", "consulte_le": "n/a"}
+  ],
+  "avertissements": [
+    "Aucun volume de ventes deduit d'un classement (aucun classement consultable de toute facon)",
+    "Aucune croissance calculee: pas de valeurs comparables entre periodes",
+    "Les resultats ddgs ne garantissent pas les filtres pays/periode exacts",
+    "Demonstration limitee: 3 tendances, pas de consultation complete des sources (extraits/expositions seulement)"
+  ]
+}
