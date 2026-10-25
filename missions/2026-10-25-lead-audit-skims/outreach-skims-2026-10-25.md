@@ -58,7 +58,9 @@ and we'll check back in a quarter.
 
 Best,
 
-[SIGNATURE]
+Gregory Baranes
+CEO, Sourcing Lab USA
+[EMAIL] | [PHONE] | [WEBSITE]
 
 Unsubscribe: reply "STOP" and we won't contact you again.
 ---
@@ -76,7 +78,9 @@ If it's simply not relevant, no reply needed and we won't follow up again.
 
 Thank you and best of luck with the winter season,
 
-[SIGNATURE]
+Gregory Baranes
+CEO, Sourcing Lab USA
+[EMAIL] | [PHONE] | [WEBSITE]
 
 Unsubscribe: reply "STOP" and we won't contact you again.
 ---
@@ -91,7 +95,7 @@ Unsubscribe: reply "STOP" and we won't contact you again.
 1. Le canal help@skims.com est un **support client** — probabilité de réponse faible (réserves de la fiche audit). Option alternative : LinkedIn SKIMS ou trouver un contact sourcing nominatif avant d'envoyer.
 2. Les dates de relance sont indicatives (J+4 / J+11) — à ajuster.
 3. Aucune promesse de prix, MOQ ou délai n'est incluse — seulement une offre de courte liste d'usines auditées.
-4. [SIGNATURE] à remplacer par les vraies coordonnées avant tout envoi.
+4. [EMAIL] / [PHONE] / [WEBSITE] à remplacer par tes vraies coordonnées avant tout envoi.
 
 ## Validation requise
 - [x] Signature : **Gregory Baranes, CEO, Sourcing Lab USA** (fournie 2026-10-25)
