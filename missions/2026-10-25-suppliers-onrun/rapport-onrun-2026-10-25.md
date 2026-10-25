@@ -2,6 +2,24 @@
 
 **Date :** 2026-10-25 · **Agent :** supplier-hunter · **Commanditaire :** Gregory Baranes, CEO Sourcing Lab USA
 
+## ⭐ MISE À JOUR 11:54 — Liste officielle On obtenue (PDF fourni par Gregory)
+
+Le PDF `/Users/gregorybaranes/Downloads/suppliers-list.pdf` = **la liste officielle publiée par On** (cdn.on-running.com/sustainability/suppliers-list.pdf) :
+- **T1 (févr. 2025)** : 34 usines de finished goods avec **adresses exactes, effectifs et ancienneté**
+- **Strategic T2 (janv. 2025)** : 25 usines de matières (uppers, semelles, tissus techniques)
+- **Corroboration douanes US** : 10 noms T1 croisés avec nos données ImportYeti (Athena, Fulgent Sun ×2, Freeview ×2, Global Running, Pro Well, Eversun, Cypress, Youngone, Maxport, Long Rich) → **double vérification**
+
+CSV complet mis à jour : `fabricants-onrun-2026-10-25.csv` (59 entrées T1+T2 avec statuts et sources).
+
+## Points saillants de la liste officielle
+
+- **2 usines géantes chaussure Vietnam** : Athena Vietnam (9 372 salariés, Ninh Binh) et Youngone Nam Dinh (8 452, apparel)
+- **Fournisseurs historiques** : Vinh Yen (depuis 2011), Cosmo Vietnam T2 (depuis 2015)
+- **Nouveaux 2024** : Cypress Nghe An, Greentech Headgear, Hung Way, Fulgent Sun Lot L1 — signal d'expansion capacitaire
+- **Apparel Europe** : PETRATEX (Portugal), INTERSOCKS (Slovénie), SLN/GELAL/Aster (Turquie) — le 29 % d'apparel turc du 20-F confirmé nommément
+- **T2 stratégique** : ECLAT (Taïwan, tissus premium Lululemon), Best Pacific (tissus stretch), Sincetech Fujian (uppers 4 658 salariés), cluster semelles Vietnam (Yusung, Freeview T2, Ever Tech Plastic, Dah Ju)
+
+
 ## Réponse courte
 
 **ONRUN = On Holding AG** (NYSE: ONON), marque suisse de chaussures de running (CloudTec). ON ne possède **aucune usine** : fabrication 100 % externalisée chez des sous-traitants tiers, à **90 % au Vietnam** pour les chaussures.
