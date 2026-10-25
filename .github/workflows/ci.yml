@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Recettes Goose + Scripts Python
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Goose CLI
+        run: |
+          curl -fsSL https://github.com/block/goose/releases/download/stable/download_cli.sh | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Valider les recettes Goose
+        run: |
+          cd recipes
+          FAIL=0
+          for f in *.yaml; do
+            echo "== $f =="
+            goose recipe validate "${f%.yaml}" || FAIL=1
+          done
+          exit $FAIL
+
+      - name: Vérifier syntaxe des scripts Python
+        run: |
+          FAIL=0
+          for f in $(find . -name "*.py" -not -path "./.git/*"); do
+            python3 -m py_compile "$f" && echo "OK: $f" || FAIL=1
+          done
+          exit $FAIL
+
+      - name: Vérifier frontmatter des skills (--- ... ---)
+        run: |
+          FAIL=0
+          for f in $(find .agents/skills -name "SKILL.md"); do
+            head -1 "$f" | grep -q '^---$' && echo "OK: $f" || { echo "❌ frontmatter manquant: $f"; FAIL=1; }
+          done
+          exit $FAIL
+
+      - name: Détecter secrets exposés
+        run: |
+          ! grep -rIE "(api[_-]?key|password|secret)\s*[:=]\s*['\"][A-Za-z0-9]{16,}" \
+            --exclude-dir=.git . && echo "✓ Aucun secret en dur détecté"
