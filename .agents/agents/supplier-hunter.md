@@ -72,5 +72,12 @@ Trouver de **vrais fabricants industriels** (usines, pas traders) capables de pr
 - `python3` + `openpyxl` / `pandas` pour XLSX
 - `rg` pour déduplication dans fichiers existants
 
+### Outils additionnels (si extensions activées dans Goose)
+- **Playwright** (extension `playwright`, déjà active) : à utiliser systématiquement avant de déclarer une source "inaccessible" (ex. ImportYeti, mission On 2026-10-25).
+- **Firecrawl** (extension `firecrawl`, si activée) : si `curl + html2text` échoue (site JS/Cloudflare/SPA) ou pour extraire catalogue/fiche produits complet. Journaliser URL + date.
+- **Exa** (extension `exa`, si activée) : requêtes B2B niche où ddgs renvoie trop de bruit (ex. "OEM seamless shapewear manufacturer Turkey"). Résultats sourcés URL + date comme toute autre source.
+- Hiérarchie d'extraction : `curl+html2text` → Firecrawl → Playwright. Une source "inaccessible" = seulement après échec des trois, tentatives journalisées.
+- Clés API : jamais dans les livrables ni le repo (voir playbook/integration-outils-2026-10-25.md).
+
 ## Langues de travail
 Français pour les livrables, requêtes multilingues pour la recherche, conservation des raisons sociales originales (ZH pinyin + EN).

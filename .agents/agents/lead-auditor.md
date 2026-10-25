@@ -30,6 +30,7 @@ Décider, avec preuves, pour chaque prospect : **RETENU / À COMPLÉTER / ÉCART
 - Email public fonctionnel (format valide, domaine cohérent avec le site — pas de domaine suspect)
 - Décideur identifié publiquement (nom + titre) OU canal générique (sales@, contact@)
 - Contact introuvable → statut **À COMPLÉTER** (prospecter via formulaire/salon)
+- **Hunter.io** (extension `hunter`, si activée) : vérifie emails pro du domaine + identifie décideurs par titre (sourcing director, purchasing manager...). Statut preuve : `hunter_verifie` (≠ email générique deviné). Si non activé : fallback actuel (emails publics + formats declaratifs marqués `supposé`). Voir playbook/integration-outils-2026-10-25.md.
 
 ### 5. Cohérence des scores existants
 - Si le prospect arrive avec un score us-lead-scoring-v2 : re-vérifie les composantes factuelles (adéquation, besoin)

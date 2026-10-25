@@ -54,3 +54,4 @@ Format parsable par `deliverables/send_emails.py` :
 - Un seul canal à la fois (email OU LinkedIn OU formulaire — jamais les trois séquentiellement sans réponse)
 - Coordonnées uniquement publiques (conformes lead-auditor)
 - Écarte tout prospect dont le contact a été jugé non vérifiable → retour au lead-auditor
+- Si extension **Hunter.io** activée : n'utilise que des emails statut `hunter_verifie` (domaine vérifié) — réduit les rebonds. Emails génériques ou `supposé` → signale à Gregory avant rédaction.
