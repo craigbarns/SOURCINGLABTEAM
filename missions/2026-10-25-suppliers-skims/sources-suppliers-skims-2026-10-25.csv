@@ -1,0 +1,15 @@
+date_consultation;type_source;url;contenu_extrait;statut_acces
+2026-10-25;presse;https://www.allamerican.org/investigation/skims/;SKIMS fabriquées en Chine, Turquie, Thaïlande - confirmé par chat service client SKIMS + étiquettes produits (Made in China / Made in Thailand) + mentions Imported - aucun produit made in USA;accessible
+2026-10-25;blog_b2b;https://berunclothes.com/where-is-skims-swimwear-made;5 pays de production (Turquie, Chine, Thaïlande, Cambodge, Vietnam) + noms EK Texal, K Mo San VZ, Henl Tha, Hangjo HS Fashion, Cherry Intimate + rappel produit pyjamas enfants fabriqués aux Philippines;accessible
+2026-10-25;blog_b2b;https://whomakethis.com/who-makes-skims/;Réseau Turquie (shapewear seamless 3D knitting), Cambodge (basics volume), Vietnam (loungewear), Chine (technical knit) - pas de noms d'usines;accessible
+2026-10-25;presse;https://www.buzzfeednews.com/article/leylamohammed/kim-kardashian-skims-manufacturer-exposed-tiktok-divided;Fabricant exposé via TikTok viral: Eurotex Tekstil Ticaret (Turquie), fournit aussi Spanx;accessible
+2026-10-25;presse;https://www.nssgclub.com/en/fashion/32022/skims-costa-troppo-per-dove-produce;2 fournisseurs majoritaires identifiés via ImportYeti: Eurotex Tekstil Ticaret (clients aussi Spanx, Medela) et Henglitai (clients aussi Urban Outfitters, Guess);accessible
+2026-10-25;presse;https://www.indy100.com/viral/kim-kardashian-skims-manufacturer-tiktok;@heyalexfriedman a utilisé ImportYeti pour identifier Eurotex comme fabricant SKIMS (2,9 M vues);accessible (résultat ddgs)
+2026-10-25;douanes;https://www.importyeti.com/supplier/henglitai;Henglitai: 318 expéditions maritimes US, dernière 2025-03-22, adresse Macao/Shanghai, source US CBP;accessible
+2026-10-25;douanes;https://www.importyeti.com/supplier/cherry-intimate;Cherry Intimate: 27 expéditions, client principal ASOS US Sales (pas Skims), Dhaka EPZ Bangladesh;accessible
+2026-10-25;douanes;https://www.importyeti.com/supplier/eurotex;ATTENTION: renvoie Eurotex Varna Bulgarie (eurotex.bg) - entité distincte du Eurotex Tekstil Ticaret turc;accessible
+2026-10-25;web;https://www.eurotex.com.tr/;Eurotex Turquie - fils filaments polyamide/polyester (possible lien upstream avec le fabricant SKIMS - à confirmer);accessible (résultat ddgs)
+2026-10-25;web;https://www.alibaba.com/product-detail/Eurotex-Tekstil-Ticaret-Full-Body-Built_1600750542697.html;Fiche Alibaba Eurotex Tekstil Ticaret: shapewear full body 55% nylon/45% spandex, firm control;accessible (résultat ddgs)
+2026-10-25;agent_precedent;(mission antérieure) thygesenapparel.com - fabrication SKIMS principalement Chine/Turquie/Thaïlande, shapewear+seamless en Chine;accessible
+2026-10-25;douanes;(mission antérieure) importyeti.com recherche "skims" - requête vide;echec
+2026-10-25;verification;ddgs "Hangjo HS Fashion" / "EK Texal" / "Henl Tha" - 0 résultats indépendants;les 3 noms n'existent que dans l'article berunclothes;verification_negative
