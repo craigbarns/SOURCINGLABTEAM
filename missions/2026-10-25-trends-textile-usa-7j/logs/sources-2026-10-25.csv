@@ -1,0 +1,13 @@
+timestamp;agent;source_nom;type;url;statut;notes
+2026-10-25T10:32+01:00;trend-hunter;DuckDuckGo;moteur;https://duckduckgo.com/?q=fashion+trend+this+week+October+2026+USA;OK;8 resultats extraits (mission A)
+2026-10-25T10:33+01:00;trend-hunter;thezoereport.com;presse mode;https://www.thezoereport.com/fashion/october-2026-fashion-news;OK consultation partielle;article octobre 2026 — Skims Alpine; Frame x Ritz Paris; SS27 trends; extraction partielle (nav + intro)
+2026-10-25T10:33+01:00;trend-hunter;whowhatwear.com;presse mode shopping;https://www.whowhatwear.com/fashion/shopping/what-to-buy-in-october-2026;OK consultation partielle;brocade jacket + glove boots octobre 2026; extrait partiel
+2026-10-25T10:34+01:00;trend-hunter;realsimple.com;presse lifestyle;https://www.realsimple.com/stylist-approved-fall-fashion-trends-october-2026-12186839;EXTRACTION VIDE;page probablement bloquee/JS-only — signalee
+2026-10-25T10:34+01:00;trend-hunter;trendhunter.com;agence tendances;https://www.trendhunter.com/slideshow/october-2026-fashion;INACCESSIBLE;'We had to block that request' (blocage bot)
+2026-10-25T10:35+01:00;trend-hunter;Google Trends;indice recherche;https://trends.google.com;INACCESSIBLE;HTTP 429 sans JS/session
+2026-10-25T10:35+01:00;trend-hunter;TikTok Creative Center;attention sociale;https://ads.tiktok.com/business/creativecenter;INACCESSIBLE;connexion requise — non tente
+2026-10-25T10:36+01:00;trend-hunter;DuckDuckGo;moteur;https://duckduckgo.com/?q=packaging+industry+trends+USA+October+2026;OK;8 resultats extraits (mission B)
+2026-10-25T10:36+01:00;trend-hunter;packagingsimplified.com;blog industrie;https://www.packagingsimplified.com/blog/packaging/eco-friendly-packaging-2026;OK consultation partielle;chiffres cites : $53.35Md CAGR 4.15% (Towards Packaging); 7 etats EPR; corrugated 41.38% (FBI); recyclage 13.3% flat (US Plastics Pact)
+2026-10-25T10:37+01:00;trend-hunter;packaginginsights.com;presse packaging;https://www.packaginginsights.com/news/top-packaging-trends-2026-sustainability-digital-innovation.html;OK consultation partielle;Pack Expo 2026 live (Siemens x PepsiCo digital twin); Silgan/AIP-Trivium $3.4Md
+2026-10-25T10:37+01:00;trend-hunter;ecoenclose.com;fournisseur US (blog);https://www.ecoenclose.com/blog/sustainable-packaging-trends-for-2026;OK consultation partielle;6 trends dont circularite default; PCR trust signal; ressources EPR/SB54; produits seaweed polybags au catalogue
+2026-10-25T10:38+01:00;trend-hunter;sustainablepackaging.org;rapport industrie;https://sustainablepackaging.org/wp-content/uploads/2026/04/SPC_2026-Sustainable-Packaging-Trends-Report.pdf;NON TELECHARGE;PDF avril 2026 — cite par sources secondaires; consultation reportee

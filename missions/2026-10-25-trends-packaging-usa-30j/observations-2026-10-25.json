@@ -1,0 +1,101 @@
+{
+  "mission_id": "TRENDS-20261025-PACKAGING-USA-30J",
+  "agent": "trend-hunter",
+  "started_at": "2026-10-25T10:32:00+01:00",
+  "parametres": {
+    "secteur": "packaging",
+    "marche": "Etats-Unis",
+    "periode_principale": "30 derniers jours (demande utilisateur)",
+    "note_periode": "les donnees accessibles sont des rapports/articles 2026 (SPC avril 2026, packaginginsights octobre 2026, Pack Expo 2026) — couvrent l'annee/mois en cours, pas exactement les 30 derniers jours — distinction consignee",
+    "max_tendances": 10,
+    "objectif": "opportunite de sourcing"
+  },
+  "tendances": [
+    {
+      "id": "TB1",
+      "tendance": "EPR : 7 etats US avec lois responsabilite elargie producteur, phases de conformite actives 2026",
+      "phase": "en croissance",
+      "corrobore": true,
+      "sources_independantes": ["packagingsimplified.com (Assent; Eco Enclose)", "ecoenclose.com (EPR/SB54)"],
+      "signals": {
+        "attention_sociale": "non mesuree",
+        "interet_de_recherche": "non mesure (Trends 429)",
+        "signal_commercial": "faits reglementaires documentes : 7 etats (CA, CO, ME, MD, MN, OR, WA) ; California SB 54"
+      },
+      "evolution_mesuree": "non calculable",
+      "fait_observe": "packagingsimplified liste les 7 etats et les phases de conformite 2026 ; ecoenclose consacre des ressources EPR + SB54",
+      "interpretation": "la reglementation EPR force les marques US a revoir leurs emballages en 2026",
+      "hypothese": "besoin urgent d'assistance sourcing conformite pour PME",
+      "inconnu": "nombre de PME impactees",
+      "opportunite_sourcinglab": "sourcing packaging conforme EPR (recyclable/monomateriau) pour PME US impactees",
+      "prochaine_action": "sur demande : us-lead-hunter-v2 sur marques DTC impactees par SB54/EPR"
+    },
+    {
+      "id": "TB2",
+      "tendance": "Contenu recycle (PCR) comme signal de confiance + circularite par defaut",
+      "phase": "en croissance",
+      "corrobore": true,
+      "sources_independantes": ["ecoenclose.com (Trends 1 et 4)", "packagingsimplified.com (marche $53.35 Md, CAGR 4.15%)"],
+      "signals": {
+        "attention_sociale": "non mesuree",
+        "interet_de_recherche": "non mesure",
+        "signal_commercial": "marche US sustainable packaging projete $53.35 Md en 2026, CAGR 4.15% (Towards Packaging, cite par packagingsimplified) ; corrugated = 41.38% part de marche (Fortune Business Insights)"
+      },
+      "evolution_mesuree": "croissance CAGR 4.15% 2026-2035 (source citee) ; taux de recyclage plastique flat 13.3% depuis 2018 (US Plastics Pact)",
+      "fait_observe": "chiffres publies et dates cites par les 2 sources",
+      "interpretation": "le PCR devient un argument de marque, pas seulement une contrainte",
+      "hypothese": "PME prêtes a payer un sur-prix pour PCR documente",
+      "inconnu": "sur-prix reellement accepte",
+      "opportunite_sourcinglab": "sourcing carton/PCR documente avec traces ISO/FSC pour marques US",
+      "prochaine_action": "sur demande : recherche fournisseurs PCR certifies (recette recherche-fournisseurs)"
+    },
+    {
+      "id": "TB3",
+      "tendance": "Emballages seaweed/plant-based emergeants (ex: seaweed polybags chez EcoEnclose)",
+      "phase": "emergente",
+      "corrobore": false,
+      "sources_independantes": ["ecoenclose.com (produits seaweed polybags et retail bags)"],
+      "signals": {
+        "attention_sociale": "non mesuree",
+        "interet_de_recherche": "non mesure",
+        "signal_commercial": "produits disponibles dans le catalogue d'un acteur US connu (EcoEnclose)"
+      },
+      "evolution_mesuree": "non calculable",
+      "fait_observe": "EcoEnclose propose des seaweed polybags et retail bags a son catalogue US",
+      "interpretation": "les bioplastiques algues quittent la R&D pour le commerce",
+      "hypothese": "niche premium a surveiller",
+      "inconnu": "volumes, couts, MOQ",
+      "opportunite_sourcinglab": "sourcing bioplastiques innovateurs si demande confirmee",
+      "prochaine_action": "corroboration necessaire (2e source independante) avant toute action"
+    },
+    {
+      "id": "TB4",
+      "tendance": "Digital/AI en production packaging (Pack Expo 2026 : digital twin Siemens pour PepsiCo)",
+      "phase": "en croissance",
+      "corrobore": true,
+      "sources_independantes": ["packaginginsights.com (Pack Expo 2026 live)", "packaginginsights.com ( consolidation Silgan/Trivium $3.4Md)"],
+      "signals": {
+        "attention_sociale": "non mesuree",
+        "interet_de_recherche": "non mesure",
+        "signal_commercial": "Pack Expo 2026 documente live ; consolidation industrie $3.4Md"
+      },
+      "evolution_mesuree": "non calculable",
+      "fait_observe": "packaginginsights rapporte en direct le Pack Expo 2026 (Siemens digital twin) et l'acquisition Silgan/AIP-Trivium $3.4Md",
+      "interpretation": "l'industrie US se modernise et se consolide",
+      "hypothese": "les PME face aux grands groupes cherchent des partenaires flexibles",
+      "inconnu": "impact reel pour PME",
+      "opportunite_sourcinglab": "positionner sourcing flexible/low-MOQ pour PME face aux consolidations",
+      "prochaine_action": "sur demande : lead-auditor sur les PME du packaging US"
+    }
+  ],
+  "sources_inaccessibles": [
+    {"url": "https://trends.google.com", "raison": "HTTP 429", "consulte_le": "2026-10-25"},
+    {"url": "https://sustainablepackaging.org/wp-content/uploads/2026/04/SPC_2026-Sustainable-Packaging-Trends-Report.pdf", "raison": "PDF non telecharge dans cette mission (rapport avril 2026) — cite par les sources secondaires", "consulte_le": "n/a"},
+    {"url": "https://www.amazon.com", "raison": "mur bot (cf. demo precedente)", "consulte_le": "2026-10-25"}
+  ],
+  "avertissements": [
+    "periode demandee = 30 derniers jours ; les donnees sont 2026 avec dates variables (SPC avril, Pack Expo octobre, articles octobre) — distinction consignee",
+    "croissance calculee seulement pour TB2 (CAGR cite par source)",
+    "aucun volume de ventes deduit d'un classement (aucun classement consultable)"
+  ]
+}
