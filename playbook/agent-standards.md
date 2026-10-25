@@ -66,3 +66,13 @@ Les agents ne prétendent JAMAIS avoir couvert 100% sans preuve.
 | us-lead-hunter | Mêmes standards que supplier-hunter. Score de qualification distinguant besoin démontré vs supposé |
 | rfq-analyst | Chaque ligne de devis sourcée du PDF original (page + cellule). Rien ne doit être tapé manuellement sans source |
 | sourcing-manager | Orchestre les standards ci-dessus ; journalise les anomalie et l'auto-validation de chaque subagent |
+
+## Configuration LLM des agents (règle du 2026-10-25, Gregory Baranes)
+
+- **Modèle par défaut pour TOUS les agents** : `z-ai/glm-5.3-flash` (via provider openrouter)
+- **Escalade vers `deepseek/deepseek-v3.2`** si et seulement si la qualité des données produites est insuffisante :
+  - Sources introuvables ou incohérentes après 2 passes de recherche
+  - Noms d'entités non vérifiables (suspects/garblés) nécessitant un raisonnement plus profond
+  - Erreurs de format dans les livrables (CSV/rapports) après correction
+- **Procédure d'escalade** : relancer la tâche via `delegate` avec `provider: openrouter`, `model: deepseek/deepseek-v3.2`, en journalisant dans le rapport la raison de l'escalade
+- Config appliquée dans `~/.config/goose/config.yaml` (`providers.openrouter.model`)
