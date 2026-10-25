@@ -1,5 +1,6 @@
 # ✉️ Brouillons outreach — SKIMS (Mission OUTREACH-20261025-SKIMS)
 **Agent** : outreach-writer | **Date** : 2026-10-25 | **Statut** : BROUILLONS — aucun envoi sans validation humaine
+**Signature validée** : Gregory Baranes, CEO, Sourcing Lab USA (fournie par l'utilisateur le 2026-10-25)
 
 **Référence d'audit** : missions/2026-10-25-lead-audit-skims/fiche-audit-lead-skims-2026-10-25.md (décision : RETENU avec réserves, score 52/100)
 
@@ -21,7 +22,7 @@ Congratulations on the Alpine collection launch — the Alpine Sherpa Fleece
 Wardrobe and cashmere knits have been getting strong editorial coverage this
 October (The Zoe Report, Oct 2026).
 
-My name is [SIGNATURE], founder of Sourcing Lab AI, a sourcing agency that
+My name is Gregory Baranes, CEO of Sourcing Lab USA — a sourcing agency that
 helps US apparel brands find and audit factories for seasonal capsules —
 knitwear, fleece, sherpa and premium basics — across vetted partners in Asia
 and Turkey.
@@ -93,6 +94,14 @@ Unsubscribe: reply "STOP" and we won't contact you again.
 4. [SIGNATURE] à remplacer par les vraies coordonnées avant tout envoi.
 
 ## Validation requise
-- [ ] Humain approuve le message (canal + angle + signature)
-- [ ] [SIGNATURE] remplacé
-- [ ] Puis : `python3 deliverables/send_emails.py --send` (fichier à alimenter avec ce brouillon)
+- [x] Signature : **Gregory Baranes, CEO, Sourcing Lab USA** (fournie 2026-10-25)
+- [ ] À compléter par toi : email d'envoi, téléphone, site web (remplacer les [EMAIL] / [PHONE] / [WEBSITE] ci-dessous)
+- [ ] Humain approuve le message final (canal + angle)
+- [ ] Puis : intégration dans deliverables/send_emails.py --send
+
+## Bloc signature à insérer à la fin de chaque email
+```
+Gregory Baranes
+CEO, Sourcing Lab USA
+[EMAIL] | [PHONE] | [WEBSITE]
+```
