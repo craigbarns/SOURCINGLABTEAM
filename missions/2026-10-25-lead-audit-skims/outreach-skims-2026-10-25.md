@@ -36,7 +36,9 @@ Would a 15-minute call in the next two weeks be of interest?
 
 Warm regards,
 
-[SIGNATURE]
+Gregory Baranes
+CEO, Sourcing Lab USA
+[EMAIL] | [PHONE] | [WEBSITE]
 
 Unsubscribe: reply "STOP" and we won't contact you again.
 ---
